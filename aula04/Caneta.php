@@ -1,6 +1,5 @@
 <?php
 
-
 class Caneta {
     
     public $modelo;
