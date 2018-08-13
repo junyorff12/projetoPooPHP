@@ -50,5 +50,9 @@ abstract class Pessoa {
         $this->sexo = $sexo;
         $this->experiencia = 0;
     }
-
+    
+    public function __toString()
+    {
+        return $this->nome.", ". $this->idade. ", ". $this->sexo.", ". $this->experiencia.".";
+    }
 }
